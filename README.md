@@ -38,3 +38,32 @@ git clone https://github.com/your-username/bangla-font-previewer.git
 cd bangla-font-previewer
 npm install
 npm run dev
+
+---
+
+## 🧩 Tech Stack
+
+- ⚙️ **Electron**
+- 🖼 **HTML / CSS / JavaScript**
+- 💠 **Optimized for Windows** (macOS/Linux ready with minor tweaks)
+
+---
+
+## 🙌 Contribute
+
+This is just the beginning!  
+**Want to help improve the app?**
+
+We're looking for contributors to add more features.
+
+> 🧑‍💻 **Fork the repo and submit a pull request!**
+
+---
+
+## 📜 License
+
+MIT License © 2025 **Faisal F Rafat**
+
+---
+
+## 🇧🇩 Built with ❤️ for the Bengali dev & design community
