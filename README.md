@@ -37,7 +37,7 @@ For developers and contributors:
 git clone https://github.com/your-username/bangla-font-previewer.git
 cd bangla-font-previewer
 npm install
-npm run dev
+npm run dev```
 
 ---
 
