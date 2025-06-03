@@ -3,9 +3,8 @@
 **Bangla Font Previewer** is a lightweight desktop application that lets you preview Bangla fonts installed on your system. Whether you're a designer, developer, or language enthusiast, this tool helps you instantly see how different fonts render Bangla text.
 
 > 🎉 **Latest Version: V1.0.0!**
->
 > 
-[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)] (https://github.com/ffrafat/bangla-font-previewer/releases/download/v1.0.0/Bangla.Font.Previewer.Setup.1.0.0.exe)
+[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)](https://github.com/ffrafat/bangla-font-previewer/releases/download/v1.0.0/Bangla.Font.Previewer.Setup.1.0.0.exe)
 
 ---
 ![App Screenshot](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Bangla%20Font%20Previewer%20Screenshot.png)
@@ -25,6 +24,8 @@
 ## 💻 Download & Install (Windows)
 
 > ✅ Pre-built `.exe` installer available!
+> 
+[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)](https://github.com/ffrafat/bangla-font-previewer/releases/download/v1.0.0/Bangla.Font.Previewer.Setup.1.0.0.exe)
 
 1. Visit the [**Releases**](https://github.com/ffrafat/bangla-font-previewer/releases) page  
 2. Download the latest `BanglaFontPreviewer-Setup.exe`  
