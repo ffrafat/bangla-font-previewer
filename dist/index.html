@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bangla Font Previewer</title>
+<style>
+  :root {
+    --accent: #7f3f98;           /* your purple accent */
+    --bg: #f5f2f8;               /* very light lilac/gray background */
+    --text: #222222;             /* dark text for good contrast */
+    --border: #7f3f9855;         /* semi-transparent purple border */
+    --input-focus: #7f3f9833;    /* subtle purple focus glow */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--bg);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text);
+    overflow: hidden;            /* prevent scroll on body */
+  }
+
+  /* Make the app-window fill the entire window */
+  .app-window {
+    width: 100vw;                /* full viewport width */
+    height: 100vh;               /* full viewport height */
+    margin: 0;                   /* no margin */
+    padding: 16px 24px;          /* some inner padding */
+    background: white;           /* flat white background */
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-logo {
+  height: 2.5rem; /* same as font size of h1 */
+  width: auto;
+  display: inline-block;
+}
+  #folder-picker-container {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  #select-folder-btn {
+    padding: 6px 16px;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    background: #f0e9f8;         /* very light purple */
+    cursor: pointer;
+    color: var(--accent);
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+
+  #select-folder-btn:hover {
+    background: #d7c7ed;         /* a bit stronger purple on hover */
+  }
+
+  #sentence-container {
+    display: none;
+    margin-bottom: 1rem;
+  }
+
+  #custom-sentence {
+    width: 100%;
+    max-width: 500px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--text);
+  }
+
+  #custom-sentence:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--input-focus);
+  }
+
+  #utility-bar {
+    display: none;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  #search-input,
+  #sort-select {
+    padding: 6px 10px;
+    font-size: 0.95rem;
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--text);
+  }
+
+  #search-input:focus,
+  #sort-select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px var(--input-focus);
+  }
+
+  #font-previews {
+    flex: 1;                     /* fill remaining height */
+    max-height: none;            /* no max height, fill flex container */
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    background: white;
+    padding: 8px;
+  }
+
+  .font-preview {
+    padding: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .font-preview:last-child {
+    border-bottom: none;
+  }
+
+  .font-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  .font-sample {
+    font-size: 2.1rem;
+  }
+</style>
+
+</head>
+<body>
+  <div class="app-window">
+<h1>
+  <img src="../build/logo.png" alt="Logo" class="app-logo" />
+  Bangla Font Previewer
+</h1>
+
+    <div id="folder-picker-container">
+      <button id="select-folder-btn">Select Font Folder</button>
+    </div>
+
+    <div id="sentence-container">
+      <input
+        id="custom-sentence"
+        type="text"
+        value="আমি বাংলায় গান গাই"
+        aria-label="Custom sentence input"
+        spellcheck="false"
+        autocomplete="off"
+      />
+    </div>
+
+    <div id="utility-bar">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Search font..."
+        aria-label="Search font"
+        spellcheck="false"
+        autocomplete="off"
+      />
+      <select id="sort-select">
+        <option value="az">Sort A-Z</option>
+        <option value="za">Sort Z-A</option>
+      </select>
+    </div>
+
+    <div id="font-previews"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

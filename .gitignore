@@ -1,0 +1,31 @@
+# Ignore everything in dist
+dist/*
+
+# But keep these specific files
+!dist/index.html
+!dist/script.js
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+
+# Electron build artifacts outside dist
+release/
+out/
+.cache/
+.temp/
