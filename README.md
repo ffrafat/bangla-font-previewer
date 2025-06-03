@@ -1,11 +1,14 @@
 # 🖋️ Bangla Font Previewer
 
-**Bangla Font Previewer** is a simple desktop app for previewing Bangla fonts installed on your system. Whether you're a designer, developer, or linguist, this tool helps you test how your custom or system fonts render Bangla text in real time.
+**Bangla Font Previewer** is a lightweight desktop application that lets you preview Bangla fonts installed on your system. Whether you're a designer, developer, or language enthusiast, this tool helps you instantly see how different fonts render Bangla text.
 
-> 🎉 **Now available as a Windows Installer!**  
-> 👉 [Download the latest `.exe` release from the Releases section](https://github.com/your-username/bangla-font-previewer/releases)
+> 🎉 **Latest Version: V1.0.0!**
+>
+> 
+[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)](https://github.com/ffrafat/bangla-font-previewer/releases)
 
-![Hero Screenshot](screenshots/hero-preview.png)
+---
+![App Screenshot](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Bangla%20Font%20Previewer%20Screenshot.png)
 
 ---
 
@@ -72,4 +75,4 @@ MIT License © 2025 **Faisal F Rafat**
 
 ---
 
-## 🇧🇩 Built with ❤️ for the Bengali dev & design community
+## 🇧🇩 Built with ❤️ for the Bengali Dev & Design Community
