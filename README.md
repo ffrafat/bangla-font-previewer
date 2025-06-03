@@ -5,7 +5,7 @@
 > 🎉 **Latest Version: V1.0.0!**
 >
 > 
-[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)](https://github.com/ffrafat/bangla-font-previewer/releases)
+[![Download Button](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Download%20Button.png)] (https://github.com/ffrafat/bangla-font-previewer/releases/download/v1.0.0/Bangla.Font.Previewer.Setup.1.0.0.exe)
 
 ---
 ![App Screenshot](https://github.com/ffrafat/bangla-font-previewer/blob/main/DOCS/Bangla%20Font%20Previewer%20Screenshot.png)
